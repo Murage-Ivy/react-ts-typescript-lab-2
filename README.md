@@ -8,7 +8,7 @@
 ## Introduction
 
 In this assignment, we'll be initializing this lab's directory to use TypeScript.
-You will continue to use this directory to code-along and practice during lessons 
+You will continue to use this directory to code along and practice during lessons 
 for the remainder of the TypeScript section. 
 
 > **Note**: You will not be doing other labs in this directory, those will still
@@ -19,7 +19,7 @@ for the remainder of the TypeScript section.
 1. Fork this repo and clone it down onto your machine. 
 2. Initialize the repo as a TypeScript project using the `tsc --init` command.
 3. Create two sub-folders, named `src` and `dist`. 
-4. Open up the `tsconfig.json` file generated from when we initialized
+4. Open up the `tsconfig.json` file generated when we initialized
    the directory in step 2.
 5. Replace it with the following, simplified configuration: 
 
@@ -40,12 +40,12 @@ for the remainder of the TypeScript section.
 }
 ```
 
-You're now set up to utilize TypeScript's very helpful watch mode in this directory!
+You're now setup to utilize TypeScript's very helpful watch mode in this directory!
 
 Before we move on, take a closer look at the simplified `tsconfig.json` we provided. 
 In it, we've specified the `rootDir` as `src` and the `outDir` as `dist`. This means 
-we want all our `.ts` files to be within src and all the compiled `.js` files will be 
-generated inside dist.
+we want all our `.ts` files to be within `src` and all the compiled `.js` files will be 
+generated inside `dist`.
 
 ## Test Our Setup 
 
